@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+.env.*
+
+# Weaviate local data
+.weaviate/
+
+# HuggingFace model cache
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
