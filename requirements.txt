@@ -1,0 +1,30 @@
+# ── API server ────────────────────────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+
+# ── Common (all modules) ──────────────────────────────────────────────────────
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-huggingface
+langchain-weaviate
+sentence-transformers
+weaviate-client
+pypdf
+
+# ── LLM-based modules (self_query, query_rewriter, hyde, raptor) ──────────────
+langchain-openai
+openai
+python-dotenv
+
+# ── Sparse retrieval (hybrid_search, rerank_fusion, flash_rerank) ─────────────
+rank-bm25
+scikit-learn
+numpy
+
+# ── Flash rerank only ─────────────────────────────────────────────────────────
+flashrank
+
+# ── RAPTOR only ───────────────────────────────────────────────────────────────
+umap-learn
